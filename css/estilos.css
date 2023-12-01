@@ -3,12 +3,12 @@
   --vermelha: #f50707;
   --vermelha-escura: #af303f;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: rgb(0, 255, 242);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #dfa7c9 0%,#f5cae0 100%);
+  background: linear-gradient(45deg, rgb(255, 72, 0) 0%,#5eff00 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -24,7 +24,7 @@ h1 {
 
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#d0afaf 100%);
-  box-shadow: 6px 8px 0 6px #8c4646, 10px 10px 10px #000;
+  box-shadow: 6px 8px 0 6px rgb(234, 0, 255), 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
   gap: 10px;
